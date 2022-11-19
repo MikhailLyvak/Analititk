@@ -16,7 +16,7 @@ for row in range(7, sheet.max_row+1):
             ListCell.append(sheet[row][col].value)
         ListRow1.append(ListCell)
 
-print("Зичтка з Excel файла №1")
+print("Зчитка з Excel файла №1")
 
 # Зичтка з Excel файла №2
 book = openpyxl.open(filename2)
@@ -29,7 +29,7 @@ for row in range(7, sheet.max_row+1):
             ListCell.append(sheet[row][col].value)
         ListRow2.append(ListCell)
 
-print("Зичтка з Excel файла №2")
+print("Зчитка з Excel файла №2")
 
 for i in ListRow2:
     print(i)
